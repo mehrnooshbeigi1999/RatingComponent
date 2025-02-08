@@ -14,8 +14,7 @@ function App() {
     };
 
     const handleSubmit = (event) => {
-        event.preventDefault(); // جلوگیری از بارگذاری مجدد صفحه
-        console.log('wswswswsw',submittedValue)
+        event.preventDefault();
     };
 
   return (
